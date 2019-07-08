@@ -1,4 +1,5 @@
 class Pokemon
+<<<<<<< HEAD
   attr_accessor :name, :type, :db, :id, :hp 
   
   def initialize(keywords)
@@ -23,6 +24,8 @@ class Pokemon
   def alter_hp(hp, db)
     db.execute("UPDATE pokemon SET hp = ? WHERE id = ?", hp, self.id) 
   end 
+=======
+>>>>>>> eaa8c9eea33333e435b632e2be90cae7b93e78ee
   
   
 end
